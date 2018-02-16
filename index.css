@@ -1,0 +1,57 @@
+p {
+    font-family: Arial;
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    background-color: white;
+}
+.buff{
+    font-family: Arial;
+    color: Black;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+body {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 18px;
+    background-color: white;
+}
+.yellowColor {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 18px;
+    color: yellow;
+}
+.alignRight {
+    text-align: right;
+}
+.alignLeft {
+    text-align: left;
+}
+.alignCenter {
+    text-align: center;
+}
+.backgroundColored {
+    color: white;
+    background-color: aquamarine;
+}
+.opaque {
+    opacity: 0.5;
+}
+.nerf {
+    font-weight: 300;
+}
+.type {
+    font-family: 'Montserrat', sans-serif;
+}
+.style {
+    font-style: italic;
+}
+.uppercased {
+    text-transform: uppercase;
+}
+.lowercased {
+    text-transform: lowercase;
+}
