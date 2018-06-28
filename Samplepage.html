@@ -1,25 +1,41 @@
 <!DOCTYPE HTML>
-<html>
-    <head>
+<html land = "en">
+    <head lang = "en-US">
         <link href="./CSS3/index.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="./PHP7.1/php.php" rel="stylesheet" type="text/php">
         <title>Sample text by Hespt</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hespt">
+        <meta name="description" content="A sample page made by Hespt">
     </head>
     <body>
-        <nav>
-            <p id="top">Top of the page</p>
-        </nav>
+        <header>
+          <nav>
+              <p id="top">The start</p>
+              <div id = "warning">
+              <p>This page uses no javascript, since it can be tricked into revealing your ip.</p>
+              <p>If you click the link below it will instantly show up alert boxes to say you're on the javescript inbbed page.</p>
+              <p>The page will change after you click "OK" on those boxes.</p>
+              <p>If you want to see an improved page with javascript ACTIVATED, click <a href="./JS/SamplepageWithJs.html">here</a>.</p>
+            </div>
+          </nav>
+        </header>
         <h1 class="1stHeading">First heading, usually in bigger letters.</h1>
         <h2 class="2ndHeading">2nd heading, usually in slightly lower letters than 1st heading.</h2>
         <h3 class="3rdHeading">3rd heading</h3>
         <h4 class="4thHeading">4th heading </h4>
         <h5 class="5thHeading">5th heading</h5>
-        <h6 class="6thHeading">6th heading</h6>
+        <h6 class="6thHeading">6th heading is smaller than the normal text, nice!</h6>
+        <p id = "Important">I made this page at <time>00:00</time> if there's words I made mistakes on, they will be <u>underlined</u></p>
         <div id=Media>
         <p>Text is displayed here.</p>
-        <img src="./images/image.png" alt="An image">
-        <video src="MyVideo.mp4" width="320" height="240" controls></video>
+        <img src="./images/image.png" alt="An image I chose">
+        <video src="./MyVideo.mp4" type="video/mp4" width="320" height="240" controls autoplay>The video is supposted to have play/pause buttons and autoplay when it charges.</video>
+        <audio src="./audio.mp3" type="audio/mp3" controls>Audio</audio>
+        <iframe src="https://www.youtube.com/watch?v=RocnM-Z8ZJE?autoplay=0&loop=0" width="320" height="240">Portugal's eurovision's song on youtube :3</iframe>
         </div>
+        <hr>
         <div id="Navigation">
             <nav>
             <ul>
@@ -27,31 +43,68 @@
             <li><a href ="https://www.google.pt/?gfe_rd=cr&dcr=0&ei=RsZsWpffFMOp8wew1rTQBw" target = "_blank">Google on a new tab :3</a></li>
             <li><a href = "#top">Click me to go to the top of page!</a></li>
             <li><a href = "#bottom">Click me to go to the bottom of the page!</a></li>
-            <li><a href ="./HTML5/updates.html" target = "_blank">Updates and bug fixes!</a></li>
+            <li><a href ="./HTML5/updates.html" target = "_blank">Updates and bug fixes!(I always forget about updating it ffs xD)</a></li>
             </ul>
             </nav>
         </div>
         <div id = "PHP7.1">
             <nav>
-                <a href = "./PHP7.1/php.php">PHP (WIP)</a>
+                <a href = "./PHP7.1/php.php">PHP (WIP) Empty right now.</a>
+                <br>
+                <p>Progress in PHP:</p><progress value = "0" max = "100"></progress>
             </nav>
+        <hr>
         </div>
         <div id="CSS3">
             <p class = "yellowColor">Yellow texttt!!</p>
             <p class = "alignLeft">Text left side!</p>
             <p class = "alignRight">Oh wait? Right side now?</p>
             <p class = "alignCenter"> woah now it's centered?</p>
-            <p class = "buff">Bold text?!?!?</p>
+            <p class = "buff"><b>Bold text?!?!?</b></p>
             <p class = "nerf">Thin text?!?</p>
             <p class = "backgroundColored">Woah background colors??!!</p>
             <p class = "opaque">Opaque text?</p>
             <p class = "type">The letters changed?</p>
-            <p class = "style">Italic text???</p>
+            <p class = "style"><i>Italic text???</i></p>
             <p class = "uppercased">uppercased text!</p>
             <p class = "lowercased">LOWEREDCASED TEXT WOWIEEE</p>
+            <p class = "marked"><mark>Marked text!</mark></p>
+            <p class = "removed"><del>This text got removed my bad oops! ;)</del></p>
+            <p class = "underlined"><ins>Why do you keep underlining me?</ins></p>
+            <p class = "subscripted">H<sub>2</sub>O</p>
+            <p class = "superscripted">What's 2<sup>2</sup>?</p>
         </div>
+        <div id = "form">
+            <form action = "./PHP7.1/php.php" id = "Answer">
+                <fieldset>
+                        <p>Disclaimer: Nothing submitted will be seen, received or sent to anyone.</p>
+                        <p>O o f can't seem to get this to work, ignore it for now LOL!</p>
+                <input type = "text" name = "Name:">
+                <input type = "radio" name = "Answer" id = "Answer" value = "2" checked>
+                <input type = "radio" name = "Answer" id = "Answer" value = "4">
+                <input type = "submit" value = "Submit" formenctype="text/plain">
+                <input type = "reset">
+                </fieldset>
+            </form>               
+        </div>
+        <footer>
+          <address>
+              Made by: Hespt <br>
+              I live in: <br>
+              5646, None of your buiness <br>
+              Portugal
+          </address>
+          <details>
+              <summary>Copyrighted, belongs to Hespt!</summary>
+              <p>All my rights.</p>
+              <p>My copyright, if you try to steal it...</p>
+              <details>
+                  <p>You might die ;), jk.</p>
+              </details>
+          </details>
+        </footer>
         <nav>
-        <p id = "bottom">Bottom of the page</p>
-        </nav>
+        <p id = "bottom">The end</p>
+        </nav>              
     </body>
 </html>
